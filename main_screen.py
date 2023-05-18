@@ -3,14 +3,6 @@ from tkinter import ttk,messagebox
 import sqlite3
 
 class Database_entry:
-    """
-    The following project is made by yogesh singh Adimn of Inatagrm page dynamin_codeing
-    if you have any queries about this project , please drop a message on my instagrm page inbox and i will definetely
-     reply you back and try to solve your error , and for more releted project follow me on Githunb and instagram...
-      /// This project basically saves the user data using sqlite3 database and you acn perform certain operations on that data ,
-      like delete it , update it and search it ...
-      please share your feedback ...  :) :) :) :) :)
-    """
     def __init__(self,root):
         self.root = root
         self.root.title("Database Project")
